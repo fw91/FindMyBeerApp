@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity">
+
+    <item
+        android:id="@+id/refresh_spots"
+        android:title="@string/action_refresh"/>
+
+    <item
+        android:id="@+id/set_radius"
+        android:title="@string/action_radius" />
+
+    <item
+        android:id="@+id/show_favorites"
+        android:title="@string/action_favorites"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/openOnlyMap"
+        android:title="@string/action_openOnly"
+        android:checkable="true" />
+
+</menu>

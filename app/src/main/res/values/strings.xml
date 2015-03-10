@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FindMyBeer -->
+    <string name="app_name">FindMyBeer</string>
+    <string name="facebook_app_id">727309434018972</string>
+
+    <!-- Activity Titles -->
+    <string name="login">Login</string>
+    <string name="menu">Find My Beer</string>
+    <string name="beerMe">Beer Me</string>
+    <string name="submit">Submit</string>
+    <string name="favorites"> Favorites</string>
+    <string name="userProfile">User Profile</string>
+
+    <!-- Menu Items -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for showing Spot-Information -->
+    <string name="spotName">Name:</string>
+    <string name="spotType">Type:</string>
+    <string name="spotInfo">Info:</string>
+    <string name="spotStatus">Status:</string>
+    <string name="spotCity">City:</string>
+    <string name="spotAddress">Address:</string>
+    <string name="spotBeer">Beer:</string>
+    <string name="spotPrice">Price:</string>
+    <string name="spotTimes">Times:</string>
+
+    <!-- Strings for showing User-Information -->
+    <string name="userID">User-ID:</string>
+    <string name="userName">User-Name:</string>
+    <string name="userStatus">User-Status:</string>
+    <string name="userToken">User-Token:</string>
+
+    <!-- ClearDatabaseDialog Strings -->
+    <string name="cdbWarning">Are you sure?\n(This can not be undone)</string>
+    <string name="cdbYes">Delete</string>
+    <string name="cdbNo">Cancel</string>
+    <string name="removeBtn">X   Remove this spot</string>
+
+    <!-- Menu-ActionBar Strings -->
+    <string name="action_enableHints">Enable Hints</string>
+    <string name="action_logout">Logout</string>
+
+    <!-- Map-ActionBar Strings -->
+    <string name="action_refresh">Refresh Spots</string>
+    <string name="action_search">Search Map</string>
+    <string name="action_radius">Set View Range</string>
+    <string name="action_favorites">Show Favorites</string>
+
+    <!-- Map-SetRadiusDialog Strings -->
+    <string name="setRadius_title">Set View Range\n(from left to right)</string>
+
+    <string-array name="setRadius_distance">
+        <item>Close-Up</item>
+        <item>On Foot (1km)</item>
+        <item>By Bike (2km)</item>
+        <item>By Car  (4km)</item>
+        <item>Overview</item>
+    </string-array>
+
+    <string name="setRadius_apply">Apply</string>
+    <string name="setRadius_cancel">Cancel</string>
+
+    <!-- Map-Search String -->
+    <string name="search_title">Type in Your desired destination</string>
+
+    <!-- Map-Comment Dialog -->
+    <string-array name="rating">
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+
+    <!-- Favorites-ActionBar Strings -->
+    <string name="action_init">Add Test-Favorites</string>
+    <string name="action_applyFilters">Apply Filters</string>
+    <string name="action_openOnly">Only Open Spots</string>
+    <string name="action_deleteFav">Clear Database</string>
+
+    <!-- Favorites-ApplyFilter Strings -->
+    <string name="applyFilters_title">Apply Filters</string>
+
+    <string-array name="applyFilters_options">
+        <item>Show Bars</item>
+        <item>Show Shops</item>
+        <item>Show Gas Stations</item>
+        <item>Show Kiosks</item>
+    </string-array>
+
+    <string name="applyFilters_apply">Apply</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="beers">
+        <item>Choose Beer</item>
+        <item>Augustiner</item>
+        <item>Tegernseer</item>
+        <item>Becks</item>
+        <item>Heinecken</item>
+    </string-array>
+    <string-array name="city_names">
+        <item>Choose City</item>
+        <item>München</item>
+    </string-array>
+    <string-array name="loc_types">
+        <item>Choose Type</item>
+        <item>Bar</item>
+        <item>Kiosk</item>
+        <item>Tankstelle</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="days">
+        <item></item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="submitTimes_type">
+        <item>Enter manually</item>
+        <item>Upload photo</item>
+    </string-array>
+
+    <string name="title_activity_fbpermission">FBPermissionActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

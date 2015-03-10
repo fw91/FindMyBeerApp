@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity">
+
+    <item
+        android:id="@+id/addTestList"
+        android:title="@string/action_init"/>
+    <item
+        android:id="@+id/applyFilters"
+        android:title="@string/action_applyFilters" />
+
+    <item
+        android:id="@+id/openOnly"
+        android:title="@string/action_openOnly"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/clearDB"
+        android:title="@string/action_deleteFav" />
+
+</menu>

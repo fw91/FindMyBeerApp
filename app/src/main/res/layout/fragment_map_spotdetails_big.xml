@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dip"
+    android:background="#394264">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/nameDVVV"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" />
+
+        <ImageView
+            android:src="@android:drawable/btn_star_big_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:id="@+id/detailsIcon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/typeDVVV"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toLeftOf="@id/detailsIcon"
+            android:layout_toStartOf="@id/detailsIcon"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#ffffff"
+            android:id="@+id/divisor"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/detailsIcon"/>
+
+
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/detailsIcon">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="2dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotInfo" />
+                <TextView
+                    android:id="@+id/infoDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="2dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotStatus" />
+                <TextView
+                    android:id="@+id/statusDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"/>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotCity" />
+                <TextView
+                    android:id="@+id/cityDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="2dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotAddress" />
+                <TextView
+                    android:id="@+id/addressDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"/>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotBeer" />
+                <TextView
+                    android:id="@+id/beerDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="2dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotPrice" />
+                <TextView
+                    android:id="@+id/priceDVVV"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"/>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="@string/spotTimes" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="show Times"
+                    android:textSize="17sp"
+                    android:gravity="left"
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/show_times"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"/>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="Comments" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="show Comments"
+                    android:textSize="17sp"
+                    android:gravity="left"
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/show_comments"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="add a Comment"
+                    android:textSize="17sp"
+                    android:gravity="left"
+                    android:background="?android:selectableItemBackground"
+                    android:id="@+id/add_comment"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

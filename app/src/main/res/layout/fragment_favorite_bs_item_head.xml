@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/fav_bs_head_background">
+
+
+    <ImageView
+        android:src="@drawable/icon_red_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:padding="5dp"
+        android:id="@+id/open_dot" />
+
+    <TextView
+        android:id="@+id/nameVVD"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#ffffff"
+        android:text="TESTSPOT"/>
+
+    <ImageView
+        android:src="@android:drawable/btn_star_big_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:id="@+id/infoSmallLogo" />
+
+</RelativeLayout>

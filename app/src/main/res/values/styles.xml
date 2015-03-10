@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <!-- Font -->
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <!--item name="android:actionBarStyle">@style/MyActionBar</item-->
+    </style>
+
+    <!-- ActionBar -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#11a8ab</item>
+    </style>
+
+    <!-- Font -->
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="ButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
+</resources>
